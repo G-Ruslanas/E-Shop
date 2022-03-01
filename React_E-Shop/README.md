@@ -1,3 +1,7 @@
+### `npm install`
+
+After download execute this command to install all required packages
+
 ### `npm start`
 
 Runs the app in the development mode.\
