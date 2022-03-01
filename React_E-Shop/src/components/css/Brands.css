@@ -1,0 +1,50 @@
+.brands {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.brands_h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.brands_wrapper {
+  flex: 1;
+  height: 70vh;
+  position: relative;
+}
+
+.brands_image {
+  width: 100%;
+  height: 100%;
+}
+
+.brands_info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands_title {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.brands_button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  font-weight: 600;
+}

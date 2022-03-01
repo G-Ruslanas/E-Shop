@@ -1,0 +1,35 @@
+.announcement {
+  height: 30px;
+  background-color: #fed6d6;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcement_wrapper {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_announcement {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.left_announcement > span {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.right_announcement {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.right_announcement > span {
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
